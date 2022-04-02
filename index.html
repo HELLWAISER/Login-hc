@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hcode Web Dev</title>
+    <link rel="stylesheet" href="style.css">
+    <!--criando um css de forma rápida em cima do style.css segure control e dará erro clique e crie o arquivo automaticamente-->
+
+</head>
+<body>
+
+    <header>
+        <h1><a href="https://www.hcode.com.br">Hcode</a></h1>
+        <nav></nav>
+    </header>
+
+<section class="content-center">
+        <div class="text-center">
+            <a href="https://www.hcode.com.br" target="_blank">
+            <img src="./Assets/hcode.png" alt="Logo da Hcode"></a>
+        </div>
+    
+    <form action="/login" method="POST" id="form-login">
+        <!--GET envia os dados por URL é perigoso e limite de informações pequeno / POST não é visivel e cabe mais dados de envio --- ideal sempre POST    ---  get bom para paginação-->
+
+        <div>
+            <input type="email" id="email" placeholder="Digite seu Email" required>
+        </div>
+
+        <div>
+            <input type="password" id="password" placeholder="Digite sua senha" required>
+        </div>
+
+        <div>
+            <button id="btn-submit">Enviar</button>
+        </div>
+        <!--tudo que é envio de formulário tem q esta dentro da tag form, sempre que for envio de informações senha etc...-->
+    </form>
+
+</section>
+
+
+        <footer>Hcode treinamentos.
+
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p>Todos direitos Reservados</p>
+    </footer>
+   
+<script src="script2.js"></script>
+</body>
+</html>
